@@ -1,0 +1,303 @@
+{
+  "schema_version": 4,
+  "scan_settings": {
+    "max_depth": 4,
+    "max_files_per_root": 8000,
+    "max_seconds_per_app": 2.5
+  },
+  "scan_roots": [
+    "%ProgramFiles%",
+    "%ProgramFiles(x86)%",
+    "%LOCALAPPDATA%\\Programs",
+    "%APPDATA%",
+    "%USERPROFILE%\\Desktop",
+    "%USERPROFILE%\\Downloads",
+    "%USERPROFILE%\\Documents",
+    "%USERPROFILE%\\Tools",
+    "C:\\Tools",
+    "C:\\PortableApps",
+    "D:\\Tools",
+    "D:\\PortableApps",
+    "I:\\AI",
+    "I:\\Tools",
+    "I:\\PortableApps"
+  ],
+  "apps": [
+    {
+      "name": "Editor",
+      "category": "Editoren",
+      "type": "app",
+      "commands": [
+        "notepad.exe"
+      ],
+      "search_names": [
+        "notepad.exe"
+      ],
+      "winget_id": null
+    },
+    {
+      "name": "Notepad++",
+      "category": "Editoren",
+      "type": "app",
+      "commands": [
+        "notepad++.exe",
+        "C:\\Program Files\\Notepad++\\notepad++.exe",
+        "D:\\Program Files\\Notepad++\\notepad++.exe"
+      ],
+      "search_names": [
+        "notepad++.exe"
+      ],
+      "winget_id": "Notepad++.Notepad++"
+    },
+    {
+      "name": "PowerShell 7",
+      "category": "System & Shell",
+      "type": "app",
+      "commands": [
+        "pwsh.exe",
+        "C:\\Program Files\\PowerShell\\7\\pwsh.exe"
+      ],
+      "search_names": [
+        "pwsh.exe"
+      ],
+      "winget_id": "Microsoft.PowerShell"
+    },
+    {
+      "name": "Windows Terminal",
+      "category": "System & Shell",
+      "type": "app",
+      "commands": [
+        "wt.exe"
+      ],
+      "search_names": [
+        "wt.exe"
+      ],
+      "winget_id": "Microsoft.WindowsTerminal"
+    },
+    {
+      "name": "Task-Manager",
+      "category": "System & Shell",
+      "type": "app",
+      "commands": [
+        "taskmgr.exe"
+      ],
+      "search_names": [
+        "taskmgr.exe"
+      ],
+      "winget_id": null
+    },
+    {
+      "name": "Dienste",
+      "category": "System & Shell",
+      "type": "msc",
+      "commands": [
+        "services.msc"
+      ],
+      "search_names": [
+        "services.msc"
+      ],
+      "winget_id": null
+    },
+    {
+      "name": "Ereignisanzeige",
+      "category": "System & Shell",
+      "type": "msc",
+      "commands": [
+        "eventvwr.msc"
+      ],
+      "search_names": [
+        "eventvwr.msc"
+      ],
+      "winget_id": null
+    },
+    {
+      "name": "Firewall",
+      "category": "System & Shell",
+      "type": "msc",
+      "commands": [
+        "wf.msc"
+      ],
+      "search_names": [
+        "wf.msc"
+      ],
+      "winget_id": null
+    },
+    {
+      "name": "WinSCP",
+      "category": "Server & Remote",
+      "type": "app",
+      "commands": [
+        "WinSCP.exe",
+        "C:\\Users\\%USERNAME%\\AppData\\Local\\Programs\\WinSCP\\WinSCP.exe"
+      ],
+      "search_names": [
+        "WinSCP.exe"
+      ],
+      "winget_id": "WinSCP.WinSCP"
+    },
+    {
+      "name": "MobaXterm",
+      "category": "Server & Remote",
+      "type": "app",
+      "commands": [
+        "MobaXterm.exe",
+        "D:\\Program Files (x86)\\Mobatek\\MobaXterm\\MobaXterm.exe"
+      ],
+      "search_names": [
+        "MobaXterm.exe",
+        "MobaXterm_Personal*.exe"
+      ],
+      "winget_id": "Mobatek.MobaXterm"
+    },
+    {
+      "name": "VNC Viewer",
+      "category": "Server & Remote",
+      "type": "app",
+      "commands": [
+        "vncviewer.exe",
+        "C:\\Program Files\\RealVNC\\VNC Viewer\\vncviewer.exe"
+      ],
+      "search_names": [
+        "vncviewer.exe",
+        "tvnviewer.exe"
+      ],
+      "winget_id": "RealVNC.VNCViewer"
+    },
+    {
+      "name": "VLC Media Player",
+      "category": "Medien",
+      "type": "app",
+      "commands": [
+        "vlc.exe",
+        "C:\\Program Files\\VideoLAN\\VLC\\vlc.exe",
+        "D:\\Program Files\\VideoLAN\\VLC\\vlc.exe"
+      ],
+      "search_names": [
+        "vlc.exe"
+      ],
+      "winget_id": "VideoLAN.VLC"
+    },
+    {
+      "name": "Ollama / lokale LLM",
+      "category": "KI & Automation",
+      "type": "app",
+      "commands": [
+        "ollama.exe",
+        "%LOCALAPPDATA%\\Programs\\Ollama\\ollama.exe",
+        "%LOCALAPPDATA%\\Programs\\Ollama\\ollama app.exe"
+      ],
+      "search_names": [
+        "ollama.exe",
+        "ollama app.exe"
+      ],
+      "winget_id": "Ollama.Ollama"
+    },
+    {
+      "name": "OpenWebUI",
+      "category": "KI & Automation",
+      "type": "url",
+      "url": "http://localhost:3000",
+      "winget_id": null
+    },
+    {
+      "name": "Hermes",
+      "category": "KI & Automation",
+      "type": "url",
+      "url": "https://hermes.digital-world.dev",
+      "winget_id": null
+    },
+    {
+      "name": "Digital World YouTube Transcriber",
+      "category": "KI & Automation",
+      "type": "url",
+      "url": "http://localhost:8090",
+      "winget_id": null
+    },
+    {
+      "name": "Codex",
+      "category": "KI & Automation",
+      "type": "app",
+      "commands": [
+        "codex.exe",
+        "codex.cmd",
+        "codex.ps1",
+        "codex"
+      ],
+      "search_names": [
+        "codex.exe",
+        "codex.cmd",
+        "codex.ps1"
+      ],
+      "winget_id": null
+    },
+    {
+      "name": "Portainer",
+      "category": "Docker & Web",
+      "type": "url",
+      "url": "https://portainer.digital-world.dev",
+      "winget_id": null
+    },
+    {
+      "name": "n8n",
+      "category": "Docker & Web",
+      "type": "url",
+      "url": "https://n8n.digital-world.dev",
+      "winget_id": null
+    },
+    {
+      "name": "digital-world.dev",
+      "category": "Docker & Web",
+      "type": "url",
+      "url": "https://digital-world.dev",
+      "winget_id": null
+    },
+    {
+      "name": "GitHub Steve72HH",
+      "category": "Docker & Web",
+      "type": "url",
+      "url": "https://github.com/Steve72HH",
+      "winget_id": null
+    },
+    {
+      "name": "WireGuard",
+      "category": "VPN",
+      "type": "app",
+      "commands": [
+        "wireguard.exe",
+        "C:\\Program Files\\WireGuard\\wireguard.exe",
+        "C:\\Program Files\\WireGuard\\wireguard-ui.exe"
+      ],
+      "search_names": [
+        "wireguard.exe",
+        "wireguard-ui.exe"
+      ],
+      "winget_id": "WireGuard.WireGuard"
+    }
+  ],
+  "ssh_profiles": [
+    {
+      "name": "Ansible",
+      "host": "CHANGE_ME",
+      "user": "root",
+      "port": 22
+    },
+    {
+      "name": "CrowdSec",
+      "host": "CHANGE_ME",
+      "user": "root",
+      "port": 22
+    },
+    {
+      "name": "Root Server 1",
+      "host": "CHANGE_ME",
+      "user": "root",
+      "port": 22
+    },
+    {
+      "name": "Root Server 2",
+      "host": "CHANGE_ME",
+      "user": "root",
+      "port": 22
+    }
+  ]
+}

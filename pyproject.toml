@@ -1,0 +1,12 @@
+[project]
+name = "digitalworld-admindeck"
+version = "4.0.0"
+description = "Standalone Windows desktop admin launcher for system administrators."
+requires-python = ">=3.11"
+dependencies = [
+  "customtkinter>=5.2.2",
+  "psutil>=5.9.8"
+]
+
+[tool.pyinstaller]
+name = "DigitalWorld-AdminDeck"

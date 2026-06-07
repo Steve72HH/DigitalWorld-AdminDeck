@@ -1,0 +1,15 @@
+{
+  "app_name": "Digital World AdminDeck",
+  "colors": {
+    "background": "#07111f",
+    "panel": "#0d1b2e",
+    "panel_alt": "#12243b",
+    "accent": "#00d4ff",
+    "accent_alt": "#6c63ff",
+    "success": "#2ee59d",
+    "warning": "#ffcc00",
+    "danger": "#ff4d6d",
+    "text": "#e8f1ff",
+    "muted": "#91a4bd"
+  }
+}
